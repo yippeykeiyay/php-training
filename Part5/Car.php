@@ -48,7 +48,7 @@ class Car
      * The list of owners
      * @var array
      */
-    public $arrOwners = array();
+    private $_arrOwners = array();
 
     /**
      * Apply the supplied arguments to the class
@@ -80,7 +80,7 @@ class Car
     public function addOwner(\Part5\Owner $objOwner): \Part5\Car
     {
         // Add the owner object to the car's list of owners
-        $this->arrOwners[] = $objOwner;
+        $this->_arrOwners[] = $objOwner;
 
         return $this;
     }
@@ -92,7 +92,17 @@ class Car
      */
     public function countOwners(): int
     {
-        return count($this->arrOwners);
+        return count($this->_arrOwners);
+    }
+
+    /**
+     * Generator for getting each previous owner of the car
+     */
+    public function getOwners()
+    {
+        foreach ($this->_arrOwners as $objOwner) {
+            yield $objOwner;
+        }
     }
 
 }

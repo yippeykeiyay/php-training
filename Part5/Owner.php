@@ -64,6 +64,21 @@ class Owner
         return true;
     }
 
+    /**
+     * Put together and return the full owner's name
+     *
+     * @return string
+     */
+    public function getFullName(): string
+    {
+        return $this->first_name . ' ' . $this->second_name;
+    }
+
+    /**
+     * Calculate the age of the owner
+     *
+     * @return int
+     */
     public function getAge(): int
     {
         // Create a DateTime object from the owner's date of birth
