@@ -34,3 +34,11 @@ In this part we create two cars that actually have the same engine. Then we appl
 *Difficulty: Advanced*
 
 Now we'll explore how using objects is super useful.
+
+## Part 6
+
+*Difficulty: Advanced+*
+
+This part is actually a test! I need you to create a Pond that contains one or more Frogs.
+
+See the [README](Part6/README.md) for more info.
