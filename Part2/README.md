@@ -3,7 +3,7 @@ Part 2
 
 This exercise creates an object that represents an engine and then creates a car object with the engine attached.
 
-We'll also go through handling errors thrown.
+We'll also go through validating the engine's fuel type and handling errors correctly.
 
 ### Successful Usage
 ```

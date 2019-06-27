@@ -15,6 +15,8 @@ This first exercise deals with creating a simple object that represents a car.
 
 This exercise creates an object that represents an engine and then creates a car object with the engine attached.
 
+We'll also go through validating the engine's fuel type and handling errors correctly.
+
 ## Part 3
 
 *Difficulty: Intermediate*
