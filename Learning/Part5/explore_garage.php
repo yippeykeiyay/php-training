@@ -3,7 +3,7 @@
 /*
  * Include required files
  */
-require_once __DIR__ . '/Garage.php';
+require_once __DIR__ . '/src/Garage.php';
 
 echo "==========================================", PHP_EOL;
 

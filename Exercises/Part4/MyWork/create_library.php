@@ -1,7 +1,7 @@
 <?php
 
-require_once __DIR__ . '/Book.php';
-require_once __DIR__ . '/Library.php';
+require_once __DIR__ . '/src/Book.php';
+require_once __DIR__ . '/src/Library.php';
 
 $objLibrary = new Library();
 

@@ -3,8 +3,8 @@
 /*
  * Include required files
  */
-require_once __DIR__ . '/Engine.php';
-require_once __DIR__ . '/Car.php';
+require_once __DIR__ . '/src/Engine.php';
+require_once __DIR__ . '/src/Car.php';
 
 try {
     // Create the engine object

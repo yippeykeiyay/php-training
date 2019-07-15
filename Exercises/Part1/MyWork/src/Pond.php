@@ -9,7 +9,7 @@ class Pond
     /**
      * Size of the pond
      */
-    const SIZE = 12;
+    const SIZE = 0;
 
     /**
      * Get the size of the Pond

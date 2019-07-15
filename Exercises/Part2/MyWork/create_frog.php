@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/Frog.php';
+require_once __DIR__ . '/src/Frog.php';
 
 try {
     // John is green

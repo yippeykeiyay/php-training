@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/Pond.php';
+require_once __DIR__ . '/src/Pond.php';
 
 $objPond = new Pond();
 

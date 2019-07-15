@@ -3,8 +3,8 @@
 /*
  * Include required files
  */
-require_once __DIR__ . '/Engine.php';
-require_once __DIR__ . '/Car.php';
+require_once __DIR__ . '/src/Engine.php';
+require_once __DIR__ . '/src/Car.php';
 
 // Create the engine object
 $objEngine = new Part2\Engine(1.6, 'petrol', 4);
