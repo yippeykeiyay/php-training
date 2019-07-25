@@ -1,9 +1,9 @@
 Part 4
 ===========
 
-This part uses everything you've learned so far except you have to write it from scratch!
+This part uses everything you've learned so far!
 
-I want you to create two classes; one to represent a Library and another to represent a Book.
+I want to create two classes; one to represent a Library and another to represent a Book.
 
 The Book must have 4 settable attributes; a unique identifier (ID), title, author's name and number of pages.
 
