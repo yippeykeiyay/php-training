@@ -29,7 +29,9 @@ class Pond
      */
     public function addFrog(Frog $objFrog): Pond
     {
-        if (count($this->arrFrogs) + 1 > self::SIZE) {
+        $new_count = (count($this->arrFrogs) + 1);
+
+        if ($new_count > self::SIZE) {
             throw new Exception("The Pond doesn't have enough space for {$objFrog->getName()} :(");
         }
 

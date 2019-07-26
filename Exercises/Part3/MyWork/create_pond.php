@@ -15,6 +15,11 @@ try {
     $objNancy = new Frog('Nancy', 'blue');
 
     $objPond->addFrog($objNancy);
+
+    // Steve is red
+    $objSteve = new Frog('Steve', 'red');
+
+    $objPond->addFrog($objSteve);
 } catch (\Exception $e) {
     echo $e->getMessage(), PHP_EOL;
 }
