@@ -14,6 +14,8 @@ The Rock Pool's 'add' method must validate that the maximum size is not exceeded
 
 ### Bonus Points
 
-  1) Correct type casting
-  2) Exception throwing on validation
-  3) Exception handling
+  1) Correct use of constants and variables
+  2) Correct use of accessors (public/private)
+  3) Correct type casting
+  4) Exception throwing on validation
+  5) Exception handling
