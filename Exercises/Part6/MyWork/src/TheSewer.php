@@ -2,7 +2,8 @@
 
 //This class is where the astrubute turtles will live
 
-class TheSewer {
+class TheSewer
+{
 
     const SIZE = 4;
 
@@ -18,14 +19,15 @@ class TheSewer {
      * @return \TheSewer
      * @throws Exception
      */
-    public function addNinjaTurtle(NinjaTurtle $objNinjaTurtle): TheSewer {
+    public function addNinjaTurtle(NinjaTurtle $objNinjaTurtle): TheSewer
+    {
         //Validates there is enough space
-        if ((count($this->_arrNinjaTurtle) + 1) > self::SIZE) {
+        if ((count($this->_arrNinjaTurtles) + 1) > self::SIZE) {
             throw new Exception('No Room my bro!!');
         }
 
         //Add starfish to the list
-        $this->_arrNinjaTurtle[] = $objNinjaTurtle;
+        $this->_arrNinjaTurtles[] = $objNinjaTurtle;
         return $this;
     }
 

@@ -1,6 +1,7 @@
 <?php
 
-class NinjaTurtle {
+class NinjaTurtle
+{
 
     /**
      * is the name
@@ -26,7 +27,8 @@ class NinjaTurtle {
      * @param int $age
      * @param string $colour
      */
-    public function __construct(string $name, int $age, string $colour) {
+    public function __construct(string $name, int $age, string $colour)
+    {
         $this->name = $name;
         $this->age = $age;
         $this->colour = $colour;

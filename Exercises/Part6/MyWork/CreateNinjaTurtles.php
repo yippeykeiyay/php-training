@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/Sewer_Project/NinjaTurtle.php';
+require_once __DIR__ . '/src/NinjaTurtle.php';
 
 $objRaph = new NinjaTurtle('Raph', 17, 'Red');
 print_r($objRaph);

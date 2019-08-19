@@ -1,7 +1,7 @@
 <?php
 
-require_once __DIR__ . 'src/TheSewer.php';
-require_once __DIR__ . 'src/NinjaTurtle.php';
+require_once __DIR__ . '/src/TheSewer.php';
+require_once __DIR__ . '/src/NinjaTurtle.php';
 
 $objTheSewer = new TheSewer();
 
@@ -20,6 +20,6 @@ try {
     $objTheSewer->addNinjaTurtle($objMikey);
 } catch (Exception $exc) {
     echo $exc->getMessage();
-    print_r($objTheSewer);
 }
 
+print_r($objTheSewer);
